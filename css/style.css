@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html{
+  font-size: 62.5%;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../images/it_akumi.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
