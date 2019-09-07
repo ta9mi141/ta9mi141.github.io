@@ -2,6 +2,7 @@
 
 html{
   font-size: 62.5%;
+  height: 100%; /* Make 'background-attachment: fixed;' work in Android Chrome/Opera */
 }
 
 *, *::before, *::after{
