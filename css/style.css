@@ -21,7 +21,7 @@ body{
 }
 
 .header{
-  padding: 5%;
+  padding: 5% 5% 2%;
 }
 
 .avatar{
@@ -46,4 +46,38 @@ body{
   width: 100%;
   margin: 2%;
   background-color: rgba(255, 255, 255, 1);
+}
+
+.section{
+  padding: 1%;
+}
+
+.section:nth-of-type(odd){
+  color: rgba(0, 0, 0, 1);
+  background-image: linear-gradient(rgba(254, 176, 5, 0.7), rgba(254, 176, 5, 0.6));
+}
+
+.heading{
+  padding: 1%;
+  letter-spacing: 1px;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+  height: auto;
+}
+
+.github{
+  padding: 5%;
+}
+
+.twitter{
+  padding: 5%;
+}
+
+.hatenablog{
 }
