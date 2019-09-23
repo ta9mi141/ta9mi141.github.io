@@ -34,7 +34,7 @@ body{
 .site-title{
   padding: 1%;
   letter-spacing: 1px;
-  font-size: 7rem;
+  font-size: 8rem;
   font-weight: 700;
 }
 
@@ -49,19 +49,38 @@ body{
 }
 
 .section{
-  padding: 1%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 3%;
 }
 
-.section:nth-of-type(odd){
+.section:nth-of-type(even){
   color: rgba(0, 0, 0, 1);
   background-image: linear-gradient(rgba(254, 176, 5, 0.7), rgba(254, 176, 5, 0.6));
 }
 
 .heading{
-  padding: 1%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
   letter-spacing: 1px;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 700;
+}
+
+ul{
+  padding: 1%;
+  list-style: none;
+  font-size: 3rem;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+li{
+  padding: 1%;
 }
 
 .logo{
